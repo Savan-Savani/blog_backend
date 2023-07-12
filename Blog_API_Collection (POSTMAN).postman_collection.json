@@ -22,12 +22,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/authors",
-					"protocol": "http",
+					"raw": "https://blog-backend-seven-lovat.vercel.app/api/authors",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"blog-backend-seven-lovat",
+						"vercel",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"authors"
@@ -51,12 +52,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/blogs",
-					"protocol": "http",
+					"raw": "https://blog-backend-seven-lovat.vercel.app/api/blogs",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"blog-backend-seven-lovat",
+						"vercel",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"blogs"
@@ -80,12 +82,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/comments",
-					"protocol": "http",
+					"raw": "https://blog-backend-seven-lovat.vercel.app/api/comments",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"blog-backend-seven-lovat",
+						"vercel",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"comments"
@@ -100,12 +103,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/blogs",
-					"protocol": "http",
+					"raw": "https://blog-backend-seven-lovat.vercel.app/api/blogs",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"blog-backend-seven-lovat",
+						"vercel",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"blogs"
@@ -129,12 +133,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/blogs/64ae001d8141511b9499267f/co-authors",
-					"protocol": "http",
+					"raw": "https://blog-backend-seven-lovat.vercel.app/api/blogs/64ae001d8141511b9499267f/co-authors",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"blog-backend-seven-lovat",
+						"vercel",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"blogs",
@@ -151,12 +156,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/blogs/64ae001d8141511b9499267f",
-					"protocol": "http",
+					"raw": "https://blog-backend-seven-lovat.vercel.app/api/blogs/64ae001d8141511b9499267f",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"blog-backend-seven-lovat",
+						"vercel",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"blogs",
@@ -169,8 +175,32 @@
 		{
 			"name": "Like blog",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"userId\": \"64adffe88141511b94992679\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://blog-backend-seven-lovat.vercel.app/api/blogs/64ae001d8141511b9499267f/like",
+					"protocol": "https",
+					"host": [
+						"blog-backend-seven-lovat",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"blogs",
+						"64ae001d8141511b9499267f",
+						"like"
+					]
+				}
 			},
 			"response": []
 		}
