@@ -1,6 +1,10 @@
 # Blog Application API Documentation
 
 This document provides an overview of the APIs available in the Blogging Application.
+## Host Url : 
+```
+https://blog-backend-seven-lovat.vercel.app
+```
 
 ## Authors
 
